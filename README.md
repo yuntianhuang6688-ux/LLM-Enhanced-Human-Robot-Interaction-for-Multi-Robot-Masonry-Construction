@@ -1,6 +1,6 @@
 # LLM-Enhanced-Human-Robot-Interaction-for-Multi-Robot-Masonry-Construction  
 ## Project Introduction
-This project is based on Webots and designs an intelligent masonry system, which includes a brick-handling robot, a vision-guided masonry robot, and a cement-spraying robot. A GUI interface is developed in PyCharm, and by integrating the ChatGPT API as the upper-level controller of the system, human–robot interaction and real-time monitoring of the masonry process are implemented.  
+This project is based on Webots and designs an intelligent masonry system, which includes a brick-handling robot, a vision-guided masonry robot, and a cement-spraying robot. A GUI interface is developed in PyCharm, and by integrating the ChatGPT API as the upper-level controller of the system, human–robot interaction and real-time monitoring of the masonry process are implemented.  In GUI.py, ttkbootstrap was used for interface beautification, and examples from OpenAI were also incorporated. The UR10e robot uses the official basic motion program from Webots, while the rest of the functionalities were implemented by ourselves.
 There are two versions of the project:
 * The first version does not include GPT. It runs directly in Webots, where the masonry system automatically completes the construction of a five-layer wall.
 * The second version integrates GPT. When running this version, you need to execute the GUI.py file in PyCharm. After the GUI window appears, you can input natural-language commands to control the system and perform masonry operations.
